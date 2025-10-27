@@ -1,0 +1,477 @@
+author_name
+Alessandro Agostini
+Branislav Katreniak
+Shell-Ying Huang
+Juan José Rodríguez
+Emil Gatial
+Alberto Palomares
+Pierre Marquis
+Trinh Minh Tri Do
+Cristiano Castelfranchi
+Guillaume Infantes
+Laszlo Szathmary
+Huy Pham
+Daniel Olmedilla
+Julien Laumonier
+Hector J. Levesque
+Laure Vieu
+Mahdi Zargayouna
+Jean Lieber
+Philippe Besnard
+Primo Zingaretti
+Henri Briand
+Radu Marinescu
+Marcus Hund
+Johannes Fürnkranz
+Alberto Finzi
+Padraig Cunningham
+Petri Myllymäki
+Peter Poller
+Antoine Rolland
+Onn Shehory
+Thomas Meyer
+Gerold Schneider
+Sven Meyer zu Eissen
+Mar Marcos
+Mehdi Dastani
+Yilian Qin
+Nicklas Forsell
+Nathalie Peyrard
+Daniel Le Berre
+Klaus Brinker
+Ian Miguel
+Fabio Gadducci
+Laura Giordano
+Enrico Giunchiglia
+Alexis Tsoukiàs
+Alexander Felfernig
+Huiliang Zhang
+Javier Larrosa
+Son Bao Pham
+Chiaki Sakama
+Roie Zivan
+Steven Halim
+Valentina Poggioni
+Tsz-Chiu Au
+Richard Tichy
+Vincent Vidal
+Uwe Egly
+Brahim Chaib-draa
+Stella Heras Barberá
+Angelo Oddi
+Nikolaos M. Avouris
+Georgios Sakellariou
+Maria Silvia Pini
+Bruno Beaufils
+Donatella Guarino
+Gabriele Monfardini
+Adam Zagorecki
+Juan A. Rodríguez-Aguilar
+Toni Mancini
+Giovanni Angelini
+Guido Boella
+Jesús Maudes
+Wolfgang Wahlster
+Stefano Lodi
+Marco Pistore
+Emil Weydert
+Mugur M. Tatar
+Davy Van Nieuwenborgh
+Matthew Sharifi
+Umberto Straccia
+Manfred Stede
+Radoslaw Szymanek
+David C. K. Yuen
+Jürgen Wall
+Oliver Kramer
+Abdel-Illah Mouaddib
+Matthias Nickles
+Miguel Angel Salichs
+Franco Salvetti
+Andreas Seyfang
+Vincent Louis
+Victor Palmer
+Lakhdar Sais
+Quang Huy Nguyen
+Emma Rollon
+Rui Da Silva Neves
+Eric Petit
+Evgueni N. Smirnov
+Christophe Lecoutre
+Fred Hemery
+Alfredo Milani
+Michael Pitz
+Viktor de Boer
+Mikalai Yatskevich
+Bozhena Bidyuk
+Gia Hien Nguyen
+Zoltán Balogh
+Claudio Sartori
+Silvia Coradeschi
+Roland H. C. Yap
+Laurent Garcia
+Nicola Olivetti
+Fariba Sadri
+David Murray-Rust
+Sana Moujahed
+Andreas Junghanns
+John-Jules Ch. Meyer
+Andrea Giovannucci
+Josette Pastor
+Alfio Massimiliano Gliozzo
+Hélène Fargier
+Manfred Pinkal
+Nicola Gatti
+Sander M. Bohté
+Yulin Ding
+Ida G. Sprinkhuizen-Kuyper
+Alexei Sharpanskykh
+Maria Amalfi
+Mikael Asker
+Jörg Denzinger
+Benno Stein
+Gabriella Cortellessa
+Martina Seidl
+Eduardo L. Fermé
+Teemu Roos
+Murray Shanahan
+Michael Edwards
+Silvia Miksch
+Francesco M. Donini
+Félix Ingrand
+Julien Erny
+Burkhard Münker
+Rino Falcone
+Emanuele Frontoni
+Nabil Hameurlain
+Olivier Simonin
+Christian Anger
+Jérôme Lang
+Perry Groot
+Emilia Oikarinen
+Michael Hess
+Peter Votruba
+Faruk Polat
+Nicola Policella
+Thomas Schiex
+Rossana Damiano
+Mathieu d'Aquin
+Souhila Kaci
+Fabrice Guillet
+Han La Poutré
+Thomas Lukasiewicz
+Efstathios Stamatatos
+Cédric Piette
+Terry R. Payne
+Francesca A. Lisi
+Michael Carney
+Marie-Christine Lagasquie-Schiex
+Thierry Artières
+Ulrich Junker
+Rudy Sicard
+Wolfgang Mayer
+Frédéric Boussemart
+Franco Scarselli
+Kaarel Kaljurand
+Daniel Curatolo
+Jean-François Bonnefon
+Régis Gras
+Athos Antoniades
+Simone Farè
+Dirk Vermeir
+Malte Helmert
+Cynthia Breazeal
+Mathieu Serrurier
+Daniel Polani
+Brian Logan
+Martin Mozina
+Peter J. F. Lucas
+Kenneth N. Brown
+Gerhard Brewka
+Esra Erdem
+Vincenzo Di Massa
+Sébastien Tabary
+Felix A. Fischer
+Yutaka Matsuo
+Domenico Rosaci
+Abdulrahman Almuhareb
+Philippe Chatalic
+Nikolaos K. Tselios
+Bob J. Wielinga
+Simon Colton
+Ladislav Hluchý
+Leonardo Rigutini
+Oliver Ray
+Benoit Gaudou
+Éric Grégoire
+Amedeo Napoli
+Alun D. Preece
+Sarah Jane Delany
+Bart Jansen
+Viktor Pekar
+Jordan Kidney
+Leila Amgoud
+Meltem Öztürk
+Pavel Shvaiko
+Ioannis Demetriades
+Guido Sangiovanni
+Pieter Jan't Hoen
+Giorgos B. Stamou
+Riccardo Rasconi
+Amedeo Cesta
+Stefano Bistarelli
+Sylvain Castagnos
+Jean-Marc Thévenin
+Gian Luca Pozzato
+Florence Dupin de Saint-Cyr
+Heshaam Feili
+Robert Demolombe
+Nic Wilson
+Piergiorgio Bertoli
+Paul Weng
+Martin Caminada
+Gianluca Caminiti
+Andreas Korthauer
+Bonaventura Coppola
+Tomi Janhunen
+Frank Nielsen
+Markus Stumptner
+Leendert W. N. van der Torre
+Stefan Mandl
+Thomas Ågotnes
+Henri Prade
+Colm O'Riordan
+Amnon Meisels
+Ivana Kruijff-Korbayová
+Christopher Jefferson
+Giorgos Stoilos
+Michael Fink
+Heike Bieler
+Jozef Siika
+Catherine Howard
+Ana-Maria Giuglea
+Antonio Pizzo
+Francesco Ricci
+Klaus Isak
+Francesco Amigoni
+Jolanda Wittenberg
+Abdelbaki Bouguerra
+Sebastian Stein
+Adriano Venturini
+Jure Zabkar
+Alan Smaill
+Michael Paesold
+Arthit Suriyawongkul
+Simone Fratini
+Christian Russ
+Vincenzo Lombardo
+Nicolas Troquard
+Paolo Traverso
+Jacek Malec
+Patrice Perny
+Marco Maggini
+Eyke Hüllermeier
+Boi Faltings
+Tommaso Di Noia
+Marco Cadoli
+Karin Lunde
+Piero A. Bonatti
+Azzurra Ragone
+John Mylopoulos
+Dana S. Nau
+Kostas Stergiou
+Silvia Suriani
+M. Birna van Riemsdijk
+Jérôme David
+Torsten Schaub
+Roberto Basili
+Valentina Gliozzi
+Jan Treur
+David A. Burke
+Francesco Di Giunta
+Vicente Julián
+Rafael Ramos-Garijo
+Toby Walsh
+Gérard Verfaillie
+Eugenio Di Sciascio
+Ian P. Gent
+Marco Chiarandini
+Georgi I. Nalbantov
+Sertan Girgin
+Yek Loong Chong
+Amal El Fallah Seghrouchni
+James Barry
+Karima Sedki
+Stijn Vanderlooy
+Ján Sefránek
+Luigi Sauro
+Richard Nock
+Olivier Lhomme
+Barry O'Sullivan
+Ronan Cummins
+Gabriele Röger
+Fausto Giunchiglia
+Marco Maratea
+Christopher Peters
+Marie-Christine Rousset
+Célia da Costa Pereira
+Jeff Z. Pan
+Michal Laclavik
+Martin Gebser
+Ramón Pino Pérez
+Alessandro Cimatti
+Daniele Pighin
+Danushka Bollegala
+Patrick Taillibert
+Anna Perini
+Kitty Rosenbrand
+Marc R. C. van Dongen
+John Bell
+Gabriele Kern-Isberner
+Massimo Poesio
+Alfredo Gabaldon
+Alexandros Bouganis
+Tilman Becker
+Didier Dubois
+Nicholas R. Jennings
+Tsvi Kuflik
+Jussi Rintanen
+Chris Unsworth
+Fabio Rinaldi
+Tobias Jung
+Andrew Byde
+Stefan Edelkamp
+Ivan Bratko
+Dominique Longin
+Mark Witkowski
+Robert Mattmüller
+Ernesto Di Iorio
+Alessandro Provetti
+Barry Smyth
+Jana Katreniaková
+Fabrizio Nunnari
+Natasha Alechina
+Vicente J. Botti
+Andreas Herzig
+Mark Jago
+Reinhard Moratz
+Sven Thiele
+John William Charnley
+Floriana Esposito
+Lionel Landwerlin
+Malik Ghallab
+Katia Lo Presti
+Stefanie Dipper
+Igor Stéphan
+Gianluca Moro
+Viet Dung Dang
+Marco Baioletti
+Elise Bonzon
+Marian Babik
+Stefan Woltran
+Patrick Paroubek
+Bernd Ludwig
+Marcelo A. Falappa
+Alessandro Moschitti
+Hoong Chuin Lau
+Arjen Hommersom
+Anthony Hunter
+Bärbel Mertsching
+Jonathan Wilkenfeld
+Jan Schehl
+Tuomas Heikkilä
+Claudia Henry
+David A. Randell
+Gholamreza Ghassem-Sani
+Floris Wiesman
+Björn Gottfried
+Rüdiger Lunde
+Pascal Vaillant
+Philippe Bretier
+Carlos Uzcátegui
+Miguel Rebollo
+Caroline Chopinaud
+Ciprian Gerstenberger
+Nate Blaylock
+Luca Di Gaspero
+Antonis C. Kakas
+Zoran Obradovic
+Abderrafiaa Koukam
+Youssef Hamadi
+Jonathan Schmitt
+Samir Aknine
+Fabio Patrizi
+Dan Goldwasser
+Julien Poudade
+Kristen Brent Venable
+Francesco Buccafurri
+Maarten van Someren
+Tony Veale
+Bruno Zanuttini
+Alessandra Mileo
+Cristina Polo-Conde
+Simon Le Gloannec
+Theodore Charitos
+Salem Benferhat
+Philippe Mathieu
+Rina Dechter
+Alessandro Saffiotti
+Kilian Stoffel
+Sandrine Lafrogne
+Shlomo Berkovsky
+Isabelle Bloch
+Mitsuru Ishizuka
+Francesca Rossi
+Thomas Eiter
+Timothy J. Norman
+Cédric Pralet
+Patrick Prosser
+Mikhail Soutchanski
+Nir Oren
+Davide Micaletto
+Kees Joost Batenburg
+Michèle Lavagna
+Raz Lin
+Loes M. M. Braun
+Robert Lundh
+Lars Karlsson
+Francesca Toni
+Lucie Galand
+Ivan Varzinczak
+Khaled Ghédira
+Juan Ángel García-Pardo
+Ján Senko
+Fadi Badra
+Thorsten Kurz
+Marco Cammisa
+Amir Gershman
+Yan Zhang
+Bertrand Mazure
+Robert E. Mercer
+Reda Alhajj
+Liviu Badea
+Jean Gressmann
+Marco Gori
+Jesús Cerquides
+Anne Boyer
+Doina Tilivea
+Andrea Tettamanzi
+Régis Sabbadin
+María Malfaz
+Andrea Schaerf
+Arie Hasman
+Marek J. Druzdzel
+Stijn Heymans
+Joachim Peer
+Gregory M. Provan
+Kenil C. K. Cheng
+Eleftherios Papachristos
+Achim G. Hoffmann
+Esther David
+Aleksander Sadikov
+Laurent Perrussel
+Marco Ernandes
+Michael Balser
+Michele Piunti
+H. Jaap van den Herik
+Sarit Kraus

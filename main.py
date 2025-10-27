@@ -1,3 +1,4 @@
+import re
 import requests
 from xml.etree import ElementTree as ET
 
@@ -36,6 +37,8 @@ for year in YEARS_RANGE:
     else:
         print(f"Found {len(papers)} papers published in {year}.")
 
+        authors_names = set()
+
         for hit in papers:
             info = hit.find('info')
             if info is not None:
@@ -43,5 +46,24 @@ for year in YEARS_RANGE:
                 if authors is not None:
                     author_names = [author.text for author in authors.findall('author')]
 
+                    # Collect unique author names by adding every name to a set
+                    for name in author_names:
+                        authors_names.add(name)
+
             else:
                 print("No info found for this hit.")
+
+        print(f"Total unique authors in {year}: {len(authors_names)}")
+
+        # For every year, we print every author name into a CSV file
+        with open(f"ecai_authors_{year}.csv", "w", encoding="utf-8") as f:
+
+            # But before we should clean every name that has a four-digit number in it (to avoid including paper IDs)
+            def clean_name_from_digits(name):
+                return re.sub(r'[0-9]+', '', name).strip()
+
+            authors_names = list(map(clean_name_from_digits, authors_names))
+
+            f.write("author_name\n")
+            for name in authors_names:
+                f.write(f"{name}\n")
