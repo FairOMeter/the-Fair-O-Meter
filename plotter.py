@@ -1,7 +1,6 @@
 # read data from CSV file "ecai_authors_summary.csv" and plot statistics
 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
 # read data from CSV file
