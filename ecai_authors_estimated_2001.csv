@@ -1,0 +1,434 @@
+author_name,Gender,Gender Probability
+Kagan Tumer,male,0.95
+Alessandro Sperduti,male,1.0
+Russell Greiner,male,1.0
+John Yen,male,1.0
+Pierre Marquis,male,0.99
+Carmel Domshlak,female,0.86
+Sarit Kraus,female,0.98
+Franz Baader,male,0.99
+Nicola Leone,male,1.0
+Delbert D. Bailey,male,1.0
+Jacob Goldberger,male,1.0
+Alexander Maedche,male,1.0
+Yuko Sakurai,female,0.98
+Maurizio Lenzerini,male,1.0
+John K. Slaney,male,1.0
+Phokion G. Kolaitis,unknown,0.0
+Manuela M. Veloso,female,0.99
+Xizhao Wang,male,0.67
+Alberto Finzi,male,1.0
+Alexandre Riazanov,male,0.99
+Brian C. Williams,male,1.0
+Francesc Esteva,male,0.98
+Yorick Wilks,male,1.0
+Hans Tompits,male,0.99
+Michael I. Jordan,male,1.0
+David C. Parkes,male,1.0
+Dan Roth,male,0.99
+Philippe Mulhem,male,1.0
+Charles Elkan,male,1.0
+Isabella Poggi,female,0.99
+Eyal Amir,male,1.0
+Marco Roveri,male,1.0
+Hiroaki Kitano,male,1.0
+Daniele Theseider Dupré,male,0.92
+Michael P. Wellman,male,1.0
+Daniel Le Berre,male,0.99
+Wolfgang Faber,male,1.0
+Raymond Reiter,male,1.0
+Frédérick Garçia,male,0.99
+Louise Travé-Massuyès,female,0.99
+Satoshi Oyama,male,1.0
+Enrico Giunchiglia,male,1.0
+Alvaro del Val,male,1.0
+Corin R. Anderson,female,0.73
+Alan M. Frisch,male,1.0
+Adnan Darwiche,male,0.99
+Brian Milch,male,1.0
+Yannic S. Tognetti,male,0.94
+Joost N. Kok,male,0.99
+Xiaoqin Zeng,female,0.95
+Emmanuel Guere,male,0.99
+Sheila A. McIlraith,female,1.0
+Dale Schuurmans,male,0.93
+Avi Pfeffer,male,0.92
+Moshe Tennenholtz,male,0.99
+Eduardo F. Morales,male,1.0
+Joseph Sill,male,0.99
+Linda C. van der Gaag,female,0.99
+Witold Lukaszewicz,male,1.0
+Simon Tong,male,1.0
+Marc Downie,male,1.0
+Teresa Escobet,female,1.0
+Wilhelm Rödder,male,0.99
+Tim D. Barfoot,male,1.0
+Subbarao Kambhampati,male,0.97
+Jia-Huai You,unknown,0.0
+Richard Washington,male,1.0
+Wolfgang Wahlster,male,1.0
+Yuan Jiang,male,0.53
+Arunava Banerjee,male,0.99
+Marco Pistore,male,1.0
+Cyril Terrioux,male,0.99
+Giuseppe Carenini,male,0.99
+Shigeo Matsubara,male,1.0
+Carsten Lutz,male,1.0
+Henrik Grosskreutz,male,1.0
+Joseph Y. Halpern,male,0.99
+Abdel-Illah Mouaddib,male,1.0
+Joanna Bryson,female,0.99
+Thierry Poibeau,male,0.99
+Christopher G. Healey,male,1.0
+Daniel S. Yeung,male,0.99
+Jacek Jarmulak,male,1.0
+Chitta Baral,male,0.88
+Mark Abramson,male,1.0
+Costas Tsatsoulis,male,0.99
+Ramana Isukapalli,male,0.9
+Raymond J. Mooney,male,1.0
+Naren Ramakrishnan,male,0.97
+Bikramjit Banerjee,male,0.98
+Ronald Parr,male,1.0
+Bart Selman,male,1.0
+Yasuhiko Kitamura,male,1.0
+Héctor Muñoz-Avila,male,0.99
+Olivier Buffet,male,0.99
+Tad Hogg,male,0.99
+Leen-Kiat Soh,male,0.59
+Robert A. Morris,male,1.0
+Lynn Andrea Stein,female,0.69
+Anna Goy,female,0.99
+David McSherry,male,1.0
+Hiroshi Mizoguchi,male,1.0
+Benjamin W. Wah,male,1.0
+Benjamin Kuipers,male,1.0
+Silvia Coradeschi,female,1.0
+Roland H. C. Yap,male,1.0
+Andrew G. Barto,male,1.0
+Pascal Van Hentenryck,male,0.99
+Andrew Y. Ng,male,1.0
+Derek Long,male,1.0
+Jörg Hoffmann,male,1.0
+Robert C. Holte,male,1.0
+Norman Y. Foo,male,0.99
+Cristina Conati,female,0.99
+Lisa Meeden,female,1.0
+Jing Peng,female,0.6
+Tristan Cazenave,male,0.98
+Lyle H. Ungar,male,0.99
+Raul Trejo,male,0.99
+Peter Jonsson,male,1.0
+Takuichi Nishimura,male,1.0
+Finnegan Southey,male,0.98
+Dennis Nilsson,male,0.99
+Henry Wai Kit Chia,male,0.99
+Jihie Kim,female,1.0
+Richard A. Volz,male,1.0
+Nicola Fanizzi,male,0.81
+Marie-Odile Cordier,female,0.98
+Andrew Garland,male,1.0
+Fahiem Bacchus,male,0.96
+Minglun Qian,male,1.0
+Yoong Keok Lee,male,0.55
+Catherine Pelachaud,female,1.0
+Michel Vasquez,male,0.94
+Murray Shanahan,male,0.99
+Gerhard Lakemeyer,male,1.0
+Benjamin Taskar,male,1.0
+Shlomo Zilberstein,male,0.99
+Dianxiang Xu,male,1.0
+Laurent Simon,male,1.0
+Hiroshi G. Okuno,male,1.0
+Giuseppe De Giacomo,male,0.99
+Jim Blythe,male,1.0
+Jérôme Lang,male,1.0
+Aravind K. Joshi,male,1.0
+Luis Enrique Sucar,male,1.0
+Jean-François Baget,male,0.99
+Souhila Kaci,female,0.97
+Carlos Guestrin,male,1.0
+Marino Segnan,male,0.98
+Stefan Kramer,male,0.99
+Marie-Laure Mugnier,female,0.99
+François Charpillet,male,0.99
+Thomas Lukasiewicz,male,1.0
+Liliana Ardissono,female,0.99
+Maurice Pagnucco,male,0.99
+Thomas Polacsek,male,1.0
+Eric A. Hansen,male,1.0
+Johannes Geiselmann,male,1.0
+Brian Scassellati,male,1.0
+Lifeng He,male,0.77
+Ralf Küsters,male,1.0
+Charles B. Callaway,male,1.0
+Roberto Ranon,male,1.0
+Fiora Pirri,female,0.97
+Bruce Blumberg,male,1.0
+Patrick Cheung,male,1.0
+Jianxin Wu,male,0.87
+Siegfried Nijssen,male,1.0
+David H. Wolpert,male,1.0
+Seung Chung,male,0.94
+Frank Wittig,male,1.0
+Lluís Godo,male,1.0
+Toru Ishida,male,0.99
+Víctor Dalmau,male,0.99
+Richard C. Meathrel,male,1.0
+Anthony Jameson,male,1.0
+Armando Tacchella,male,0.99
+Thomas R. Ioerger,male,1.0
+Jeremy Kubica,male,1.0
+Jochen Renz,male,1.0
+Rene Quiniou,male,0.92
+Christian Bessière,male,0.99
+James C. Lester,male,1.0
+Silja Renooij,female,0.99
+Horst W. Haussecker,male,0.99
+Feng Zhao,male,0.92
+Sven Behnke,male,1.0
+Yves Deville,male,0.98
+Wheeler Ruml,male,1.0
+Robert St. Amant,male,1.0
+Luis A. García,male,1.0
+Amnon Lotem,male,0.99
+Alice X. Zheng,female,0.99
+Michael T. Rosenstein,male,1.0
+Theodore J. Perkins,male,0.99
+Ken-ichi Hidai,male,1.0
+Peter Jeavons,male,1.0
+Éric Monfroy,male,0.99
+Michael A. Goodrich,male,1.0
+Armin Fiedler,male,0.98
+Bert Van Nuffelen,male,0.99
+Alexander G. Hauptmann,male,1.0
+Timothy J. Peugniez,male,1.0
+Fabio Ciravegna,male,1.0
+Solomon Eyal Shimony,male,1.0
+Xenofon D. Koutsoukos,male,1.0
+Catholijn M. Jonker,unknown,0.0
+James E. Hanson,male,1.0
+Kenneth McGarry,male,1.0
+Ashok K. Goel,male,0.99
+Piergiorgio Bertoli,male,0.99
+Gregory Z. Grudic,male,1.0
+Arancha Casal,female,0.99
+Rachid Alami,male,1.0
+Mary-Anne Williams,female,1.0
+Fusun Yaman,female,0.96
+Fabio Massacci,male,1.0
+Kazuhiro Nakadai,male,1.0
+Ivayla Vatcheva,female,0.97
+Ray Rowe,male,0.98
+Michael Fink,male,1.0
+Peter Gärdenfors,male,1.0
+Andrew Lim,male,1.0
+Claudia Picardi,female,0.99
+Mark Craven,male,1.0
+Robert C. Burke,male,1.0
+Michael Ady,male,1.0
+Soumya Ray,female,0.96
+Zhi-Hua Zhou,female,1.0
+Un Yong Nahm,male,0.73
+Chung-hye Han,male,0.62
+Aynur A. Dayanik,female,0.97
+Michel Page,male,0.94
+Paul H. Morris,male,1.0
+Markian Hlynka,male,0.98
+Haym Hirsh,male,0.52
+John MacIntyre,male,1.0
+Craig Boutilier,male,1.0
+Jeff L. Stimpson,male,1.0
+Luc De Raedt,male,0.99
+Sandip Sen,male,0.99
+Robert Milne,male,1.0
+Paolo Traverso,male,1.0
+Sebastian Brandt,male,1.0
+Fangzhen Lin,male,0.67
+Michael S. Miller,male,1.0
+Sanguk Noh,male,1.0
+Richard Alterman,male,1.0
+Marco Cadoli,male,1.0
+Piero A. Bonatti,male,0.99
+Rosina Weber,female,0.99
+Hanna Pasula,female,0.96
+Gerald Tesauro,male,1.0
+Alessandro Serra,male,1.0
+Daphne Koller,female,1.0
+Andrzej Szalas,male,1.0
+Emilio Remolina,male,0.99
+Dana S. Nau,female,0.94
+Nicola Muscettola,male,0.81
+Jean-Luc Gouzé,male,1.0
+Roberto Basili,male,1.0
+Jan Treur,male,0.89
+Torsten Schaub,male,1.0
+Katsutoshi Hirayama,male,0.99
+Kalina Bontcheva,female,0.99
+Judea Pearl,female,0.64
+David W. Aha,male,1.0
+Ralf Möller,male,1.0
+Vladik Kreinovich,male,0.98
+Maria Teresa Pazienza,female,0.99
+Sofus A. Macskassy,male,0.97
+Toby Walsh,male,0.91
+Kewen Wang,male,0.84
+Giovanna Petrone,female,0.99
+Gerd Stumme,male,0.9
+Chew Lim Tan,male,0.73
+Rong Jin,male,1.0
+Lorenza Saitta,female,0.98
+Pascal Soucy,male,0.99
+Giuliana Sabbatini,female,1.0
+Phil Kim,male,0.99
+Georg Gottlob,male,0.99
+Makoto Yokoo,male,0.97
+Thomas Linke,male,1.0
+Loris Penserini,male,0.96
+Eran Segal,male,0.97
+Damian A. Isla,male,0.99
+Yuanlin Zhang,female,0.67
+Céline Hernandez,female,1.0
+Francisco Toledo,male,1.0
+Nicolaas J. I. Mars,male,1.0
+Mark E. Stickel,male,1.0
+Jane You,female,0.99
+Florent Serre,male,0.99
+Christine Alvarado,female,1.0
+Shenshan Qiu,female,0.5
+Mitchell A. Potter,male,0.7
+Frédéric Benhamou,male,1.0
+Huizhong Long,female,0.56
+Vineet Gupta,male,1.0
+Fiorella de Rosis,female,1.0
+Rina Azoulay-Schwartz,female,0.98
+Len Breslow,male,0.65
+Daniel S. Weld,male,0.99
+Subhash Suri,male,0.97
+Olivier Dubois,male,0.99
+Alessandro Cimatti,male,1.0
+Luca Console,male,0.97
+Antony Galton,male,0.99
+Stefan Wermter,male,0.99
+Johanna D. Moore,female,0.99
+Volker Haarslev,male,1.0
+Hidde de Jong,male,0.99
+Ralf Molitor,male,1.0
+Yolanda Gil,female,0.99
+Joseph Bockhorst,male,0.99
+Raymond S. T. Lee,male,1.0
+Nadège Porquet,female,0.99
+Jim Davies,male,1.0
+Teruhiro Yamada,male,1.0
+Berardina De Carolis,female,1.0
+Eric C. C. Tsang,male,1.0
+Maytal Saar-Tsechansky,female,1.0
+Andrei Voronkov,male,0.99
+Christopher Bailey-Kellogg,male,1.0
+Irène Grosclaude,female,0.99
+Lawrence C. Walters,male,0.99
+David Levine,male,1.0
+Jussi Rintanen,male,0.98
+Dongmo Zhang,male,0.55
+Olivier Bernard,male,0.99
+Mark Witkowski,male,1.0
+Jonathan Schaeffer,male,1.0
+Gilles Dequen,male,0.99
+Martha Stone Palmer,female,0.99
+Andreas Herzig,male,1.0
+Adriana Zapico,female,1.0
+Ronen I. Brafman,male,1.0
+Henrik Jacobsson,male,1.0
+Jin-Kao Hao,unknown,0.0
+Floriana Esposito,female,0.99
+Lucas Bordeaux,male,0.99
+Jeffrey O. Kephart,male,1.0
+Massimo Narizzano,male,1.0
+Hiroshi Ishiguro,male,1.0
+Stefano Ferilli,male,1.0
+Andrew Gilpin,male,1.0
+Luca Chittaro,male,0.97
+Fabio Aiolli,male,1.0
+Michael H. Bowling,male,1.0
+Kalyan Moy Gupta,male,1.0
+Alessandro Moschitti,male,1.0
+Maria Fox,female,1.0
+Andrei A. Krokhin,male,0.99
+Micha Janssen,male,0.94
+Ulrike Sattler,female,0.99
+David A. Randell,male,1.0
+Bob Price,male,0.99
+Piotr J. Gmytrasiewicz,male,1.0
+Dimitris Achlioptas,male,1.0
+Randall Davis,male,1.0
+Antonis C. Kakas,male,0.99
+William E. Walsh,male,1.0
+Yoav Shoham,male,1.0
+Tuomas Sandholm,male,1.0
+James Reich,male,1.0
+Wen-tau Yih,male,0.59
+Rong Zhou,female,0.55
+Philip R. Cohen,male,1.0
+Marc Denecker,male,1.0
+Leonardo Romero,male,1.0
+Fredrik Linåker,male,1.0
+Stuart Russell,male,1.0
+Hideo Shimazu,male,1.0
+Holger H. Hoos,male,1.0
+Fatma Ozcan,female,1.0
+Lina Khatib,female,0.98
+Steven Mitchell,male,1.0
+Salem Benferhat,male,0.95
+Gabriele M. T. D'Eleuterio,male,0.86
+James N. K. Liu,male,1.0
+Maurizio Panti,male,1.0
+Alessandro Saffiotti,male,1.0
+Wee Kheng Leow,male,0.86
+XuanLong Nguyen,male,1.0
+Thomas L. Dean,male,0.99
+Yue Cao,female,0.67
+Jianwen Yin,male,0.87
+Luca Spalazzi,male,0.97
+Francesca Rossi,female,1.0
+Fei Xia,female,0.5
+Thomas Eiter,male,1.0
+Tony Belpaeme,male,0.99
+Xuequan Sun,male,1.0
+Thierry Vidal,male,1.0
+Kee-Eung Kim,unknown,0.0
+Attilio Giordana,male,1.0
+Mikhail Soutchanski,male,1.0
+Patrick Doherty,male,1.0
+Susan Craw,female,1.0
+Lars Karlsson,male,1.0
+Simon Parsons,male,0.99
+Jayant Kalagnanam,male,1.0
+Carla P. Gomes,female,0.99
+Pavlos Peppas,male,1.0
+Vili Jussila,male,0.81
+Takashi Kokubo,male,1.0
+Bernhard Nebel,male,1.0
+V. S. Subrahmanian,male,0.69
+Rajarshi Das,male,1.0
+Yan Zhang,male,1.0
+Petr Hájek,male,0.99
+Josefina Sierra-Santibáñez,female,0.99
+Michael H. Coen,male,1.0
+Guy W. Mineau,male,0.99
+Yongshao Ruan,female,1.0
+Stéphane Cardon,male,0.99
+Manfred Jaeger,male,1.0
+Wang Ying,female,0.88
+G. Neelakantan Kartha,male,0.78
+Gerald Pfeifer,male,1.0
+Pedro M. Domingos,male,0.99
+Henry A. Kautz,male,0.99
+Diego Calvanese,male,1.0
+Giovanni Semeraro,male,1.0
+Shifu Chen,male,0.79
+Foster J. Provost,male,0.88
+Alain Dutech,male,0.99
+Jean-Charles Régin,male,0.99
+Ian Horrocks,male,1.0
+Marta Eso,female,0.99
+Alan C. Schultz,male,1.0
