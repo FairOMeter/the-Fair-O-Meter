@@ -2,26 +2,43 @@
 import csv
 from collections import defaultdict
 
-from main import YEARS_RANGE
+if __name__ == "__main__":
+    from main import YEARS_RANGE
 
-for year in YEARS_RANGE:
-    genders_count = defaultdict(int)
-    genders_prob_count = defaultdict(float)
+    summary_data = []
 
-    with open(f"ecai_authors_estimated_{year}.csv", "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            gender = row["Gender"]
-            gender_prob = float(row["Gender Probability"])
-            genders_count[gender] += 1
-            genders_prob_count[gender] += gender_prob
+    for year in YEARS_RANGE:
+        genders_count = defaultdict(int)
+        genders_prob_count = defaultdict(float)
 
-    # Print the statistics for the year
-    print(f"\n{year}")
-    total_authors = sum(genders_count.values())
-    print(f"Total authors: {total_authors}")
+        try:
+            with open(f"ecai_authors_estimated_{year}.csv", "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    gender = row["Gender"]
+                    gender_prob = float(row["Gender Probability"])
+                    genders_count[gender] += 1
+                    genders_prob_count[gender] += gender_prob
+        except FileNotFoundError:
+            print(f"No author file found for year {year}, skipping statistics.")
+            continue
 
-    for gender, count in genders_count.items():
-        percentage = (count / total_authors) * 100 if total_authors > 0 else 0
-        avg_probability = (genders_prob_count[gender] / count) if count > 0 else 0
-        print(f"\t{gender:8s}:\t{count:5d} ({percentage:.2f}%, with average probability: {avg_probability:.2f})")
+        # Print the statistics for the year
+        print(f"\n{year}")
+        total_authors = sum(genders_count.values())
+        print(f"Total authors: {total_authors}")
+
+        for gender, count in genders_count.items():
+            percentage = (count / total_authors) * 100 if total_authors > 0 else 0
+            avg_probability = (genders_prob_count[gender] / count) if count > 0 else 0
+            print(f"\t{gender:8s}:\t{count:5d} ({percentage:.2f}%, with average probability: {avg_probability:.2f})")
+
+            summary_data.append((year, total_authors, gender, genders_count[gender], percentage, avg_probability))
+
+    # We save everything in a summary CSV file
+    # The summary CSV file is structured as follows:
+    # year, total_authors, gender, count, percentage, avg_probability
+    with open("ecai_authors_summary.csv", "w", encoding="utf-8") as f:
+        f.write("year,total_authors,gender,count,percentage,avg_probability\n")
+        for data in summary_data:
+            f.write(f"{data[0]},{data[1]},{data[2]},{data[3]},{data[4]:.2f},{data[5]:.2f}\n")
