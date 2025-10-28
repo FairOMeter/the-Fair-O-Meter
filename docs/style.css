@@ -5,10 +5,14 @@
     --accent: #06b6d4;
 }
 body, html {
+    background-color: linear-gradient(135deg, var(--bg-gradient-1), var(--bg-gradient-2));
+    background: linear-gradient(135deg, var(--bg-gradient-1), var(--bg-gradient-2));
+}
+body {
     height: 100%;
+    width: 100%;
     margin: 0;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    background: linear-gradient(135deg, var(--bg-gradient-1), var(--bg-gradient-2));
     color: #eef2ff;
 }
 .hero {
@@ -23,7 +27,7 @@ body, html {
     background: rgba(255,255,255,0.04);
     border: none;
     backdrop-filter: blur(6px);
-    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+    box-shadow: 0 8px 30px rgba(1, 3, 15, 0.726);
 }
 .title {
     font-weight: 700;
@@ -38,11 +42,13 @@ body, html {
     color: var(--accent);
 }
 footer {
-    position: fixed;
     bottom: 12px;
     left: 0;
     right: 0;
     text-align: center;
     color: rgba(255,255,255,0.6);
     font-size: 0.9rem;
+}
+hr {
+    color: #c7d2fe;
 }

@@ -1,5 +1,4 @@
 from plotly import graph_objects as go
-import plotly.io as pio
 import pandas as pd
 
 
@@ -53,42 +52,10 @@ def make_proportional_area(csv_path: str = "data/ecai_authors_summary.csv") -> g
 			line=dict(color=colors['unknown'])
 		)
 	)
-	
-	# Definisci il template personalizzato
-	my_template = go.layout.Template(
-		layout=dict(
-			font=dict(
-				family="'Segoe UI', Arial, sans-serif",
-				size=14,
-				color="#c7d2fe"
-			),
-			paper_bgcolor='rgba(255, 255, 255, 0)',
-			plot_bgcolor="#070708",
-			
-			#colorway=['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
-			
-			xaxis=dict(
-				showgrid=True,
-				gridcolor='#ecf0f1',
-				linecolor='#bdc3c7',
-				tickfont=dict(size=12)
-			),
-			yaxis=dict(
-				showgrid=True,
-				gridcolor='#ecf0f1',
-				linecolor='#bdc3c7',
-				tickfont=dict(size=12)
-			),
-			
-			title=dict(
-				font=dict(size=22, color='rgba(255, 255, 255, 0.8)'),
-				x=0.5,
-				xanchor='center'
-			)
-		)
-	)
-	pio.templates["my_style"] = my_template
 
+	from plotly_template_initializer import initialize_plotly_template
+	initialize_plotly_template()
+	
 	fig.update_layout(
 		title_text='Number of Authors by Gender Over Years',
 		xaxis_title='Year',
