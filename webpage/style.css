@@ -1,0 +1,48 @@
+
+:root {
+    --bg-gradient-1: #0f172a;
+    --bg-gradient-2: #1e293b;
+    --accent: #06b6d4;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: linear-gradient(135deg, var(--bg-gradient-1), var(--bg-gradient-2));
+    color: #eef2ff;
+}
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.card {
+    background: rgba(255,255,255,0.04);
+    border: none;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+}
+.title {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.subtitle {
+    color: #c7d2fe;
+    opacity: 0.92;
+}
+.accent {
+    color: var(--accent);
+}
+footer {
+    position: fixed;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+}
