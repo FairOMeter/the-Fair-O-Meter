@@ -81,7 +81,7 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
     return fig
 
 
-def export_animated_pie_html(csv_path: str = "data/ecai_authors_summary.csv", html_path: str = 'plots/animated_pie.html') -> None:
+def export_animated_pie_html(csv_path: str = "data/ecai_authors_summary.csv", html_path: str = 'docs/plots/animated_pie.html') -> None:
     fig = make_animated_pie(csv_path=csv_path)
     print("Writing animated pie chart HTML...")
     fig.write_html(file=html_path, include_plotlyjs='cdn', full_html=False)
