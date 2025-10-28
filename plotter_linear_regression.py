@@ -64,7 +64,7 @@ def make_linear_regression_plot() -> go.Figure:
 
 	# Layout
 	fig.update_layout(
-		title="Prediction of When the Gender Gap Will Close",
+		#title="Prediction of When the Gender Gap Will Close", # Title has been moved to the HTML page
 		xaxis_title="Year",
 		yaxis_title="Gender Gap (% male - female)",
 		template="my_style"

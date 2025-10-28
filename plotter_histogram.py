@@ -39,7 +39,7 @@ def make_grouped_histogram(csv_path: str = "data/ecai_authors_summary.csv") -> g
 
 	fig.update_layout(
 		barmode='group',
-		title_text='Number of Authors by Gender',
+		#title_text='Number of Authors by Gender', # Title has been moved to the HTML page
 		xaxis_title='Year',
 		yaxis_title='Number of Authors',
 		template='my_style',

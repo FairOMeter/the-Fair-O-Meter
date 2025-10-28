@@ -39,10 +39,17 @@ body {
 }
 .research-question {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: var(--accent);
-    text-align: justify;
-    font-weight: 700;
+    text-align: center;
+    font-weight: 600;
+}
+h3 {
+    color: #c7d2fe;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
 }
 .accent {
     color: var(--accent);
