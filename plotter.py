@@ -16,6 +16,9 @@ if __name__ == "__main__":
     from plotter_timeline import export_timeline_html
     export_timeline_html()
 
+    from plotter_linear_regression import export_linear_regression_html
+    export_linear_regression_html()
+
     # Deprecated
     # from plotter_fairometer import export_gauge_html
     # export_gauge_html()

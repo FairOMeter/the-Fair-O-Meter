@@ -10,7 +10,7 @@ when we expect to reach gender parity if the current trend continues.
 
 from plotly import graph_objects as go
 
-PERFECT_PARITY_YEAR = 2163
+PERFECT_PARITY_YEAR = 2089
 
 
 def make_timeline() -> go.Figure:
