@@ -2,8 +2,8 @@
 import csv
 from collections import defaultdict
 
-if __name__ == "__main__":
-    from main import YEARS_RANGE
+def main() -> None:
+    from scraper import YEARS_RANGE
 
     summary_data = []
 
@@ -42,3 +42,6 @@ if __name__ == "__main__":
         f.write("year,total_authors,gender,count,percentage,avg_probability\n")
         for data in summary_data:
             f.write(f"{data[0]},{data[1]},{data[2]},{data[3]},{data[4]:.2f},{data[5]:.2f}\n")
+
+if __name__ == "__main__":
+    main()

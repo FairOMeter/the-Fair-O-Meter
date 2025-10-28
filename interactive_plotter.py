@@ -1,45 +1,91 @@
-import matplotlib.pyplot as plt
-from matplotlib.widgets import Slider
+from plotly import graph_objects as go
 import pandas as pd
 
-df = pd.read_csv("data/ecai_authors_summary.csv")
-pivot = df.pivot_table(index='year', columns='gender', values='percentage', aggfunc='sum', fill_value=0)
-initial_year = pivot.index[0]
 
-fig, ax = plt.subplots(figsize=(6, 6))
-plt.subplots_adjust(bottom=0.25)  # make room for slider
+def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Figure:
+    """Create a Plotly animated pie chart (frames + slider) from the summary CSV.
+    """
+    df = pd.read_csv(csv_path)
+    pivot = df.pivot_table(index='year', columns='gender', values='percentage', aggfunc='sum', fill_value=0)
 
-# Plot initial pie
-values = pivot.loc[initial_year]
-wedges, texts, autotexts = ax.pie(
-    values, 
-    labels=values.index,
-    autopct='%1.1f%%',
-    colors=['blue', 'pink', 'green']
-)
-ax.set_title(f"Gender Distribution in {initial_year}")
+    years = list(pivot.index)
+    labels = list(pivot.columns)
+    # Ensure values follow the same label ordering for every year
+    values_by_year = [pivot.loc[y].reindex(labels).tolist() for y in years]
 
-# Slider setup
-ax_slider = plt.axes([0.2, 0.1, 0.6, 0.05])
-slider = Slider(
-    ax=ax_slider,
-    label='Year ',
-    valmin=0,
-    valmax=len(pivot.index) - 1,
-    valinit=0,
-    valstep=1
-)
+    # Initial pie (first year)
+    fig = go.Figure(
+        data=[
+            go.Pie(labels=labels, values=values_by_year[0], hole=0, sort=False, textinfo='percent+label')
+        ],
+        frames=[
+            go.Frame(
+                data=[go.Pie(labels=labels, values=vals, hole=0, sort=False, textinfo='percent+label')],
+                name=str(year),
+                layout=go.Layout(title_text=f"Gender distribution in {year}")
+            )
+            for year, vals in zip(years, values_by_year)
+        ],
+    )
 
-# Update function
-def update(val):
-    year_index = int(slider.val)
-    year = pivot.index[year_index]
-    ax.clear()
-    values = pivot.loc[year]
-    ax.pie(values, labels=values.index, autopct='%1.1f%%', colors=['pink', 'blue', 'green'])
-    ax.set_title(f"Gender Distribution in {year}")
-    fig.canvas.draw_idle()
+    # Slider steps for each frame/year
+    steps = []
+    for year in years:
+        steps.append(
+            dict(
+                method="animate",
+                args=[[str(year)], {"frame": {"duration": 400, "redraw": True}, "mode": "immediate"}],
+                label=str(year),
+            )
+        )
 
-slider.on_changed(update)
+    sliders = [
+        dict(
+            active=0,
+            pad={"t": 50},
+            steps=steps,
+        )
+    ]
 
-plt.show()
+    # Play / Pause buttons
+    updatemenus = [
+        dict(
+            type="buttons",
+            showactive=False,
+            y=0,
+            x=1.05,
+            xanchor="right",
+            yanchor="top",
+            pad={"t": 0, "r": 10},
+            buttons=[
+                dict(
+                    label="Play",
+                    method="animate",
+                    args=[None, {"frame": {"duration": 800, "redraw": True}, "fromcurrent": True, "mode": "immediate"}],
+                ),
+                dict(
+                    label="Pause",
+                    method="animate",
+                    args=[[None], {"frame": {"duration": 0, "redraw": False}, "mode": "immediate"}],
+                ),
+            ],
+        )
+    ]
+
+    fig.update_layout(
+        title_text=f"Gender distribution in {years[0]}",
+        updatemenus=updatemenus,
+        sliders=sliders,
+    )
+
+    return fig
+
+
+def export_animated_pie_html(csv_path: str = "data/ecai_authors_summary.csv", html_path: str = 'plots/animated_pie.html') -> None:
+    fig = make_animated_pie(csv_path=csv_path)
+    print("Writing animated pie chart HTML...")
+    fig.write_html(file=html_path, include_plotlyjs='cdn', full_html=False)
+    print("COMPLETED!")
+
+if __name__ == "__main__":
+    export_animated_pie_html()
