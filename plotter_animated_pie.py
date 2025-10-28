@@ -28,7 +28,7 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
             for year, vals in zip(years, values_by_year)
         ],
     )
-    fig.update_traces(marker=dict(colors=["#EB4B98", "#5158bb", "#FFC857"], line=dict(color='rgba(255, 255, 255, 200)', width=2)))
+    fig.update_traces(marker=dict(colors=["#EB4B98", "#5158bb", "#FFC857"], line=dict(color='rgba(255, 255, 255, 200)', width=1)))
 
     # Slider steps for each frame/year
     steps = []
