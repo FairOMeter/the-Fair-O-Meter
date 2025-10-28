@@ -9,8 +9,6 @@ body, html {
     background: linear-gradient(135deg, var(--bg-gradient-1), var(--bg-gradient-2));
 }
 body {
-    height: 100%;
-    width: 100%;
     margin: 0;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     color: #eef2ff;
@@ -22,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
 }
 .card {
     background: rgba(255,255,255,0.04);

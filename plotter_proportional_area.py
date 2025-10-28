@@ -57,9 +57,9 @@ def make_proportional_area(csv_path: str = "data/ecai_authors_summary.csv") -> g
 	initialize_plotly_template()
 	
 	fig.update_layout(
-		title_text='Number of Authors by Gender Over Years',
+		title_text='Percentage of Authors by Gender',
 		xaxis_title='Year',
-		yaxis_title='Number of Authors',
+		yaxis_title='% of Authors',
 		template='my_style',
 		legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1)
 	)

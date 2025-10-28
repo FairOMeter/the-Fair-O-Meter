@@ -22,7 +22,7 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
 			go.Frame(
 				data=[go.Pie(labels=labels, values=vals, hole=0.2, sort=False, textinfo='percent+label')],
 				name=str(year),
-				layout=go.Layout(title_text=f"Gender distribution in {year}")
+				layout=go.Layout(title_text=f"Gender ratio in {year}")
 			)
 			for year, vals in zip(years, values_by_year)
 		],
@@ -77,7 +77,7 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
 	initialize_plotly_template()
 
 	fig.update_layout(
-		title_text=f"Gender distribution in {years[0]}",
+		title_text=f"Gender ratio in {years[0]}",
 		template="my_style",
 		updatemenus=updatemenus,
 		sliders=sliders,

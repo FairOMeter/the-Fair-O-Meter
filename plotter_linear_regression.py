@@ -56,7 +56,7 @@ def make_linear_regression_plot() -> go.Figure:
 	# Horizontal line at gap = 0
 	fig.add_hline(
 		y=0, line_dash="dot", line_color="#FFC857",
-		annotation_text="Parity (gap = 0)", annotation_position="bottom right"
+		annotation_text="Parity (gap = 0)", annotation_position="right"
 	)
 		
 	from plotly_template_initializer import initialize_plotly_template
@@ -64,10 +64,9 @@ def make_linear_regression_plot() -> go.Figure:
 
 	# Layout
 	fig.update_layout(
-		title="Predicted Gender Gap Over Time",
+		title="Prediction of When the Gender Gap Will Close",
 		xaxis_title="Year",
-		yaxis_title="Male - Female % Difference",
-		legend_title="Legend",
+		yaxis_title="Gender Gap (% male - female)",
 		template="my_style"
 	)
 	return fig

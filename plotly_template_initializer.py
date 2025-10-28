@@ -20,14 +20,14 @@ def initialize_plotly_template():
             
             xaxis=dict(
                 showgrid=True,
-                gridcolor='#ecf0f1',
-                linecolor='#bdc3c7',
+                gridcolor='rgba(255, 255, 255, 0.4)',
+                linecolor='rgba(255, 255, 255, 0.2)',
                 tickfont=dict(size=12)
             ),
             yaxis=dict(
                 showgrid=True,
-                gridcolor='#ecf0f1',
-                linecolor='#bdc3c7',
+                gridcolor='rgba(255, 255, 255, 0.4)',
+                linecolor='rgba(255, 255, 255, 0.2)',
                 tickfont=dict(size=12)
             ),
             
