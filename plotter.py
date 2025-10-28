@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # read data from CSV file
-df = pd.read_csv("ecai_authors_summary.csv")
+df = pd.read_csv("data/ecai_authors_summary.csv")
 # File is structured as follows:
 # year, total_authors, gender, count, percentage, avg_probability
 # We want to plot, for every year, the count of authors grouped by gender

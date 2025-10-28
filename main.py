@@ -58,7 +58,7 @@ if __name__ == "__main__":
             print(f"Total unique authors in {year}: {len(authors_names)}")
 
             # For every year, we print every author name into a CSV file
-            with open(f"ecai_authors_{year}.csv", "w", encoding="utf-8") as f:
+            with open(f"data/ecai_authors_{year}.csv", "w", encoding="utf-8") as f:
 
                 # But before we should clean every name that has a four-digit number in it (to avoid including paper IDs)
                 def clean_name_from_digits(name):

@@ -9,7 +9,7 @@ import pandas as pd
 # read data from CSV file "ecai_authors_summary.csv" and plot statistics
 if __name__ == "__main__":  
 
-    df = pd.read_csv("ecai_authors_summary.csv")
+    df = pd.read_csv("data/ecai_authors_summary.csv")
 
     # Pivot by 'count' and 'percentage'
     pivot_count = df.pivot_table(index='year', columns='gender', values='count', aggfunc='sum', fill_value=0)

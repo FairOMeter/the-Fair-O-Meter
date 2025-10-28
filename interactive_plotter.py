@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 import pandas as pd
 
-df = pd.read_csv("ecai_authors_summary.csv")
+df = pd.read_csv("data/ecai_authors_summary.csv")
 pivot = df.pivot_table(index='year', columns='gender', values='percentage', aggfunc='sum', fill_value=0)
 initial_year = pivot.index[0]
 

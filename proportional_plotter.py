@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # read data from CSV file
-df = pd.read_csv("ecai_authors_summary.csv")
+df = pd.read_csv("data/ecai_authors_summary.csv")
 
 male_df = df[df["gender"] == "male"]
 female_df = df[df["gender"] == "female"]
