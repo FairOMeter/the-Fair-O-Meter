@@ -38,8 +38,17 @@ body {
     color: #c7d2fe;
     opacity: 0.92;
 }
+.research-question {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: var(--accent);
+}
 .accent {
     color: var(--accent);
+}
+p {
+    color: #aab7ee;
+    font-size: 15px;
 }
 footer {
     bottom: 12px;
@@ -51,4 +60,24 @@ footer {
 }
 hr {
     color: #c7d2fe;
+}
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
 }

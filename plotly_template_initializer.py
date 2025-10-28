@@ -14,7 +14,7 @@ def initialize_plotly_template():
                 color="#c7d2fe"
             ),
             paper_bgcolor='rgba(255, 255, 255, 0)',
-            plot_bgcolor="rgba(255, 255, 255, 0.1)",
+            plot_bgcolor="rgba(255, 255, 255, 0)",
             
             #colorway=['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
             
