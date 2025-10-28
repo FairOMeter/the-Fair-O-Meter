@@ -1,4 +1,5 @@
 from plotly import graph_objects as go
+import plotly.io as pio
 import pandas as pd
 
 
@@ -27,7 +28,7 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
             for year, vals in zip(years, values_by_year)
         ],
     )
-    fig.update_traces(marker=dict(colors=["pink", "teal", "lime"], line=dict(color='rgba(255, 255, 255, 200)', width=2)))
+    fig.update_traces(marker=dict(colors=["#EB4B98", "#5158bb", "#FFC857"], line=dict(color='rgba(255, 255, 255, 200)', width=2)))
 
     # Slider steps for each frame/year
     steps = []
@@ -73,8 +74,44 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
         )
     ]
 
+    # Definisci il template personalizzato
+    my_template = go.layout.Template(
+        layout=dict(
+            font=dict(
+                family="'Segoe UI', Arial, sans-serif",
+                size=14,
+                color="#c7d2fe"
+            ),
+            paper_bgcolor='rgba(255, 255, 255, 0)',
+            plot_bgcolor="#070708",
+            
+            #colorway=['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
+            
+            xaxis=dict(
+                showgrid=True,
+                gridcolor='#ecf0f1',
+                linecolor='#bdc3c7',
+                tickfont=dict(size=12)
+            ),
+            yaxis=dict(
+                showgrid=True,
+                gridcolor='#ecf0f1',
+                linecolor='#bdc3c7',
+                tickfont=dict(size=12)
+            ),
+            
+            title=dict(
+                font=dict(size=22, color='rgba(255, 255, 255, 0.8)'),
+                x=0.5,
+                xanchor='center'
+            )
+        )
+    )
+    pio.templates["my_style"] = my_template
+
     fig.update_layout(
         title_text=f"Gender distribution in {years[0]}",
+        template="my_style",
         updatemenus=updatemenus,
         sliders=sliders,
     )
