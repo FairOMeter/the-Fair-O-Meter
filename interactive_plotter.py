@@ -16,17 +16,18 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
     # Initial pie (first year)
     fig = go.Figure(
         data=[
-            go.Pie(labels=labels, values=values_by_year[0], hole=0, sort=False, textinfo='percent+label')
+            go.Pie(labels=labels, values=values_by_year[0], hole=0.2, sort=False, textinfo='percent+label')
         ],
         frames=[
             go.Frame(
-                data=[go.Pie(labels=labels, values=vals, hole=0, sort=False, textinfo='percent+label')],
+                data=[go.Pie(labels=labels, values=vals, hole=0.2, sort=False, textinfo='percent+label')],
                 name=str(year),
                 layout=go.Layout(title_text=f"Gender distribution in {year}")
             )
             for year, vals in zip(years, values_by_year)
         ],
     )
+    fig.update_traces(marker=dict(colors=["pink", "teal", "lime"], line=dict(color='rgba(255, 255, 255, 200)', width=2)))
 
     # Slider steps for each frame/year
     steps = []
@@ -84,7 +85,8 @@ def make_animated_pie(csv_path: str = "data/ecai_authors_summary.csv") -> go.Fig
 def export_animated_pie_html(csv_path: str = "data/ecai_authors_summary.csv", html_path: str = 'docs/plots/animated_pie.html') -> None:
     fig = make_animated_pie(csv_path=csv_path)
     print("Writing animated pie chart HTML...")
-    fig.write_html(file=html_path, include_plotlyjs='cdn', full_html=False)
+    fig.write_html(file=html_path, include_plotlyjs='../plotly-3.1.0.min.js', full_html=False)
+    # Assuming we have a "plotly.min.js" script in the root directory of the web page
     print("COMPLETED!")
 
 if __name__ == "__main__":
